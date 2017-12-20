@@ -1,0 +1,9 @@
+.admin.htpasswd
+httpd.conf.sample
+magic
+magic.sample
+mime.types
+mime.types.sample
+extra/*
+!extra/httpd-ssl.conf
+modules.d/README_modules.d

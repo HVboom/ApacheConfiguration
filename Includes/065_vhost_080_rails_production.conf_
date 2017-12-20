@@ -1,0 +1,22 @@
+LoadModule vhost_alias_module libexec/apache24/mod_vhost_alias.so
+
+<VirtualHost *:80>
+  # Serve rails application in production mode
+  #
+  # The application has to be located in /home/<application>/RubyOnRails/<application>
+  # The URL to serve the application will be <application>.HVboom.org
+  #
+  # ATTENTION: <application> has to be all lowercase
+
+  UseCanonicalName Off
+
+  ServerAlias *.HVboom.org
+  VirtualDocumentRoot "/home/%1/RubyOnRails/%1/public"
+
+  PassengerAppEnv "production"
+  RailsBaseURI "/"
+  <Directory "/home/*/RubyOnRails/*/public">
+    Require all granted
+    Options -MultiViews 
+  </Directory>
+</VirtualHost>
