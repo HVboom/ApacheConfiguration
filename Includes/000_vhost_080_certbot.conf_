@@ -1,0 +1,81 @@
+<VirtualHost *:80>
+  ServerName Gitlab.HVboom.org
+  DocumentRoot "/usr/local/www/gitlab/public"
+  <Directory "/usr/local/www/gitlab/public">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName phpMyAdmin.HVboom.org
+  DocumentRoot "/usr/local/www/apache24/data/admin/phpMyAdmin"
+  <Directory "/usr/local/www/apache24/data/admin/phpMyAdmin">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName HVDigitalSafe.HVboom.org
+  DocumentRoot "/home/hvdigitalsafe/RubyOnRails/hvdigitalsafe/public"
+  <Directory "/home/hvdigitalsafe/RubyOnRails/hvdigitalsafe/public">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName HVKeyGuard.HVboom.org
+  DocumentRoot "/home/hvkeyguard/RubyOnRails/hvkeyguard/public"
+  <Directory "/home/hvkeyguard/RubyOnRails/hvkeyguard/public">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName HVDigitalSafe.Demo.HVboom.org
+  DocumentRoot "/home/mario/RubyOnRails/HVDigitalSafe/public"
+  <Directory "/home/mario/RubyOnRails/HVDigitalSafe/public">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName HVKeyGuard.Demo.HVboom.org
+  DocumentRoot "/home/mario/RubyOnRails/HVKeyGuard/public"
+  <Directory "/home/mario/RubyOnRails/HVKeyGuard/public">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName Jekyll.HVboom.org
+  DocumentRoot "/home/jekyll/Projects"
+  <Directory "/home/jekyll/Projects">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName Preview.HVboom.org
+  DocumentRoot "/home/jekyll/Preview"
+  <Directory "/home/jekyll/Preview">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName Docs.HVboom.org
+  DocumentRoot "/home/jekyll/Live"
+  <Directory "/home/jekyll/Live">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName HVboom.org
+  ServerAlias www.HVboom.org
+  DocumentRoot "/home/jekyll/Live/Homepage"
+  <Directory "/home/jekyll/Live/Homepage">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
