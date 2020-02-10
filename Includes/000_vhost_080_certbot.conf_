@@ -16,16 +16,24 @@
 
 <VirtualHost *:80>
   ServerName HVDigitalSafe.HVboom.org
-  DocumentRoot "/home/hvdigitalsafe/RubyOnRails/hvdigitalsafe/public"
-  <Directory "/home/hvdigitalsafe/RubyOnRails/hvdigitalsafe/public">
+  DocumentRoot "/home/hvdigitalsafe/RubyOnRails/HVDigitalSafe/public"
+  <Directory "/home/hvdigitalsafe/RubyOnRails/HVDigitalSafe/public">
     Require all granted
   </Directory>
 </VirtualHost>
 
 <VirtualHost *:80>
   ServerName HVKeyGuard.HVboom.org
-  DocumentRoot "/home/hvkeyguard/RubyOnRails/hvkeyguard/public"
-  <Directory "/home/hvkeyguard/RubyOnRails/hvkeyguard/public">
+  DocumentRoot "/home/hvkeyguard/RubyOnRails/HVKeyGuard/public"
+  <Directory "/home/hvkeyguard/RubyOnRails/HVKeyGuard/public">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName HVWorkout.HVboom.org
+  DocumentRoot "/home/hvworkout/RubyOnRails/HVWorkout/public"
+  <Directory "/home/hvworkout/RubyOnRails/HVWorkout/public">
     Require all granted
   </Directory>
 </VirtualHost>
@@ -42,6 +50,14 @@
   ServerName HVKeyGuard.Demo.HVboom.org
   DocumentRoot "/home/mario/RubyOnRails/HVKeyGuard/public"
   <Directory "/home/mario/RubyOnRails/HVKeyGuard/public">
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+  ServerName HVWorkout.Demo.HVboom.org
+  DocumentRoot "/home/mario/RubyOnRails/HVWorkout/public"
+  <Directory "/home/mario/RubyOnRails/HVWorkout/public">
     Require all granted
   </Directory>
 </VirtualHost>
