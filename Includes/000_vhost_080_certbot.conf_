@@ -26,41 +26,41 @@
   </VirtualHost>
 </Macro>
 
-Use Rails development mario            HVDigitalSafe
-Use Rails demo        demo             HVDigitalSafe
-Use RailsProduction   hvdigitalsafe    HVDigitalSafe
+Use Rails           mario            HVDigitalSafe
+Use Rails           demo             HVDigitalSafe
+Use RailsProduction hvdigitalsafe    HVDigitalSafe
 
-Use Rails development mario            HVKeyGuard
-Use Rails demo        demo             HVKeyGuard
-Use RailsProduction   hvkeyguard       HVKeyGuard
+Use Rails           mario            HVKeyGuard
+Use Rails           demo             HVKeyGuard
+Use RailsProduction hvkeyguard       HVKeyGuard
 
-Use Rails development mario            HVPlayground
-Use Rails demo        demo             HVPlayground
-Use RailsProduction   hvplayground     HVPlayground
+Use Rails           mario            HVPlayground
+Use Rails           demo             HVPlayground
+Use RailsProduction hvplayground     HVPlayground
 
-Use Rails development mario            HVMembership
-Use Rails demo        demo             HVMembership
-Use RailsProduction   hvmembership     HVMembership
+Use Rails           mario            HVMembership
+Use Rails           demo             HVMembership
+Use RailsProduction hvmembership     HVMembership
 
-Use Rails development mario            HVControlTower
-Use Rails demo        demo             HVControlTower
-Use RailsProduction   hvcontroltower   HVControlTower
+Use Rails           mario            HVControlTower
+Use Rails           demo             HVControlTower
+Use RailsProduction hvcontroltower   HVControlTower
 
-Use Rails development mario            HVEntitlement
-Use Rails demo        demo             HVEntitlement
-Use RailsProduction   hventitlement    HVEntitlement
+Use Rails           mario            HVEntitlement
+Use Rails           demo             HVEntitlement
+Use RailsProduction hventitlement    HVEntitlement
 
-Use Rails development mario            HVLogger
-Use Rails demo        demo             HVLogger
-Use Rails production  hvlogger         HVLogger
+Use Rails           mario            HVLogger
+Use Rails           demo             HVLogger
+Use RailsProduction hvlogger         HVLogger
 
-Use Rails development mario            HVLookBook
-Use Rails demo        demo             HVLookBook
-Use Rails production  hvlookbook       HVLookBook
+Use Rails           mario            HVLookBook
+Use Rails           demo             HVLookBook
+Use RailsProduction hvlookbook       HVLookBook
 
-Use Rails development mario            HVTurtleGraphics
-Use Rails demo        demo             HVTurtleGraphics
-Use Rails production  hvturtlegraphics HVTurtleGraphics
+Use Rails           mario            HVTurtleGraphics
+Use Rails           demo             HVTurtleGraphics
+Use RailsProduction hvturtlegraphics HVTurtleGraphics
 
 UndefMacro RailsProduction
 UndefMacro Rails
